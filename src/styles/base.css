@@ -1,0 +1,41 @@
+:root {
+    --color-background-menu: #eae6df;
+    --color-text-menu: #6a6763;
+    --color-border-menu:#dfd8ce;
+    --color-logo-menu:#334D50;
+    --color-text-selection:#cccccc;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2.3rem;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: var(--color-text-selection);
+}
+
+.grid {
+    width: 1320px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    height: 1200px;
+}
