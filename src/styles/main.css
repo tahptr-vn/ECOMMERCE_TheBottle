@@ -1,7 +1,12 @@
+/* Header */
 .header {
     height: 140px;
     background-color: var(--color-background-menu);
     border-bottom: 1px solid var(--color-border-menu);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header__navbar{
@@ -48,3 +53,107 @@
 .logo-bottle-shop {
     color: var(--color-logo-menu);
 }
+/* End Header */
+
+/* Footer */
+.footer {
+    height: 620px;
+    background-color: var(--color-background-menu);
+    border-top: 1px solid var(--color-border-menu);
+    padding: 96px 100px;
+}
+
+.footer__list {
+    padding-left:0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 56px;
+}
+
+.footer__heading {
+    font-size: 2rem;
+    font-family: "Cormorant", serif;
+    color: var(--color-heading-footer);
+}
+
+.footer__heading-link {
+    text-decoration: none;
+    color: var(--color-heading-footer);
+    font-weight: 600;
+}
+
+.footer__heading-link:hover {
+    text-decoration: underline;
+}
+
+.footer__desc {
+    font-size: 1.4rem;
+    color: var(--color-desc-footer);
+    line-height: 2.3rem;
+}
+
+.upToDate__form {
+    display:flex;
+    gap: 32px;
+}
+
+.upToDate__form-group {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.upToDate__form-label {
+    font-size: 1rem;
+    color: var(--color-label-text-footer);
+}
+
+.upToDate__form-input {
+    padding: 20px;
+    width: 200px;
+    border: 1px solid rgb(148, 149, 150);
+    height: 48px;
+    background-color: var(--color-background-input-footer);
+    font-size: 1.2rem;
+    color: var(--color-text-input-footer);
+    font-weight: 500;
+}
+
+.upToDate__form-controls {
+    display: inline-block;
+   
+}
+
+.btn--sub {
+    padding: 16px;
+    height: 48px;
+    color: var(--color-text-btn-footer);
+    background-color: var(--color-background-btn-footer);
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    top: 22px;
+    cursor: pointer;
+}
+
+.footer__secondary-list {
+    display:inline-flex;
+    list-style: none;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+    margin-top: 56px;
+}
+
+.footer__secondary-list>li>a {
+    text-decoration: none;
+    color: #2e4548;
+    font-size: 1.4rem;
+}
+
+.footer__secondary-list>li>a:hover {
+    text-decoration: underline;
+}
+/* End Footer */
