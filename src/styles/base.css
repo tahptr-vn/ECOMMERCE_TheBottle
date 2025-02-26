@@ -53,5 +53,25 @@ html {
 }
 
 .container {
-    height: 1200px;
+    height: 800px;
+}
+
+.btn--primary-btn {
+    padding: 16px;
+    color: #f2f0ec;
+    background-color: rgb(46, 69, 72);
+    margin-right: 16px;
+    font-size: 1.3rem;
+    border: none;
+}
+
+.btn--primary-btn:first-child:hover {
+    background-color: #607072;
+    color: #f2f0ec;
+}
+
+.btn--background-white {
+    background-color: #f2f0ec;
+    color: #607072;
+    border: 1px solid #dfd8ce;
 }
